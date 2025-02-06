@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='yourpackagename', # fill this
+    name='dspack', # fill this
     version='0.0.0',    
     description='A example Python package',
-    url='https://github.com/yourusername/yourpackagename', # fill this
-    author='yourname', # fill this if you want
-    author_email='none', # fill this if you want
+    url='https://github.com/bogerav/DS_project_pack/tree/main', # fill this
+    author='bogerav', # fill this if you want
+    author_email='incognito', # fill this if you want
     license='BSD 2-clause',
     packages=find_packages(where="src"),
     package_dir={"": "src"},
